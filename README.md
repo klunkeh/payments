@@ -1,5 +1,45 @@
 # Payments API
-The readme file for the payments api
+The readme file for the payments api.
+
+### TODO LIST
+- [ ] Create API
+- [ ] Create authenication system
+- [ ] Create mobile application
+
+### Future features
+- [ ] Add products
+- [ ] Add customers
+
+## Account
+Create Stripe account for the user. 
+```
+/accounts
+```
+
+Retrieves the details of the account.
+
+```
+/accounts/{account}
+```
+
+Updates an account by setting the values of the parameters passed. Any parameters not provided will be left unchanged.
+
+```
+/accounts/{account}
+```
+
+Delete Stripe accounts you manage.
+
+Managed accounts created using test-mode keys can be deleted at any time. Managed accounts created using live-mode keys may only be deleted once all balances are zero.
+```
+/accounts/{account}
+```
+
+## Bank Account
+If the bank account's owner has no other external account in the bank account's currency, the new bank account will become the default for that currency. However, if the owner already has a bank account for that currency, the new account will only become the default if the default_for_currency parameter is set to true.
+```
+accounts/{account}/bank_accounts
+```
 
 ## Charges
 Returns a list of charges you’ve previously created.
