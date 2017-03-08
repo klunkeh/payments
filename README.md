@@ -11,13 +11,10 @@ The readme file for the payments api.
 - [ ] Add customers
 
 ### Mappings for API requests
-Create  -> POST
-
-Read    -> GET
-
-Update  -> PUT
-
-Delete  -> DELETE
+- Create  -> POST
+- Read    -> GET
+- Update  -> PUT
+- Delete  -> DELETE
 
 ## Account
 #### Create
