@@ -2,13 +2,20 @@
 The readme file for the payments api.
 
 ### TODO LIST
-- [ ] Create API
-- [ ] Create authenication system
+API
+- [ ] Create api endpoints
+- [ ] Add validation to endpoints
+- [ ] Add authenication to endpoints
+
+Authentication
+- [ ] Create user database
+
+Mobile application
 - [ ] Create mobile application
 
 ### Future features
-- [ ] Add products
-- [ ] Add customers
+- [ ] Allow clients to add products
+- [ ] Add clients to add customers
 
 ### Mappings for API requests
 - Create  -> POST
