@@ -12,8 +12,11 @@ The readme file for the payments api.
 
 ### Mappings for API requests
 Create  -> POST
+
 Read    -> GET
+
 Update  -> PUT
+
 Delete  -> DELETE
 
 ## Account
